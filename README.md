@@ -1,8 +1,16 @@
+# Output of following this tutorial: https://github.com/rquellh/testcafe-cucumber/wiki/Initial-Setup
+
+Original README follows:
+-----
+-----
+
+
+
 # Integration of TestCafe and CucumberJS
 
 This is a demonstration of integration [TestCafé](https://github.com/DevExpress/testcafe) into [CucumberJS](https://github.com/cucumber/cucumber-js) tests using TestCafe and Cucumber.
 
-Big thank you to [helen-dikareva](https://github.com/helen-dikareva/) for your help in starting the integration with your [repo](https://github.com/helen-dikareva/testcafe-cucumber-demo). This is a fork of all of the hard work you've put in. 
+Big thank you to [helen-dikareva](https://github.com/helen-dikareva/) for your help in starting the integration with your [repo](https://github.com/helen-dikareva/testcafe-cucumber-demo). This is a fork of all of the hard work you've put in.
 
 Also, thanks to the team at [TestCafé](https://github.com/DevExpress/testcafe) for allowing testers to break away from Selenium.
 
@@ -20,7 +28,7 @@ Also, thanks to the team at [TestCafé](https://github.com/DevExpress/testcafe) 
 </tr>
 </table>
 
-## Installation 
+## Installation
 
 1. Make sure [Node.js](https://nodejs.org/) is installed
 2. Navigate to the root of the repo
@@ -54,7 +62,7 @@ You can run tests by executing `node_modules/cucumber/bin/cucumber-js`
 
 ## Notes
 
-* As of the time I am writting this, there is only 1 passing test of 3. I decided to not make all of the tests passing, so you could see how failures are handled. 
+* As of the time I am writting this, there is only 1 passing test of 3. I decided to not make all of the tests passing, so you could see how failures are handled.
 
 * My solution closes the TestCafé browser between each scenario. I tried to keep it open between scenarios but had trouble with handling failures. If you find a solution, I'd like to know.
 
